@@ -1,0 +1,95 @@
+<!DOCTOCTYPE html>
+<html>
+
+<head>
+
+
+	<link rel="stylesheet" href="js/bootstrap.min.css">
+	<link rel="stylesheet" href="js/bootstrap-theme.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+
+		$(document).ready(function()
+		{
+			$("#myModal").modal('show');
+		});
+
+	</script>
+
+    <meta charset="utf-8" />
+
+	<script type="text/javascript" src="js/mouse.js"></script>
+	<script type="text/javascript" src="js/objetos.js"></script>
+	<link href="css/estilo.css" rel="stylesheet">
+
+<style type="text/css">
+
+.fondo{
+    background: url(img/fondo.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
+
+
+</style>
+
+</head>
+
+	<body class="fondo">
+
+
+		<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"> Como usar la Pokedex: </h4>
+            </div>
+            <div class="modal-body">
+                <p> 1) Pose el puntero del raton arriba del Pokemon para poder ver sus datos.</p>
+                <p >2) Tambien es posible escuchar el grito del pokemon al darle click.</p>
+            </div>
+            <div class="modal-footer">
+               <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button> -->
+               <a href="https://cursos.mejorando.la/usuarios/matnarori/" target="_blank" class="btn btn-default"/>Matias Leonel - Mejorando.la</a>
+                <button type="button" class="btn btn-primary"  data-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+		<div id="grito" style="display:none"></div>
+
+	<div class="oddish" >
+		<img src="img/5.png"  width="150"  onclick="grito(43);" onMouseOver="pokedex(43)" onMouseOut="abordar()">
+	</div>
+
+	<div class="bulbasaur">
+		<img src="img/1.png"  width="100" onclick="grito(1);" onMouseOver="pokedex(1)" onMouseOut="abordar()">
+	</div>
+
+	<div class="charmander">
+		<img src="img/2.png"  width="175" onclick="grito(4);" onMouseOver="pokedex(4)" onMouseOut="abordar()">
+	</div>
+
+	<div class="staryu">
+		<img src="img/4.gif"  width="70" onclick="grito(120);" onMouseOver="pokedex(120)" onMouseOut="abordar()">
+	</div>
+
+	<div class="squirtle">
+		<img src="img/3.png"  width="70" onclick="grito(7);" onMouseOver="pokedex(7)" onMouseOut="abordar()">
+	</div>
+
+	<div class="pidgey">
+		<img src="img/7.png"  width="200" onclick="grito(16);" onMouseOver="pokedex(16)" onMouseOut="abordar()">
+	</div>
+
+
+
+</body>
+</html>

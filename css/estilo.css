@@ -1,0 +1,39 @@
+html { overflow-x:hidden; 
+ overflow-y: hidden; }
+
+	.oddish {
+			margin-top: 24%;
+			cursor:pointer;
+			}
+
+	.bulbasaur  {
+				margin-top: -10%;
+				margin-left: 50%;
+				cursor:pointer;
+				}
+
+
+	.charmander {
+				margin-top: -7%;
+				margin-left: 25%;
+				cursor:pointer;
+				}
+
+	.staryu {
+				margin-top: -18%;
+				margin-left: 87%;	
+				cursor:pointer;
+			}
+
+	.squirtle {
+				margin-top: -6%;
+				margin-left: 65%;
+				cursor:pointer;
+			  }
+
+	.pidgey {
+				margin-top: -25%;
+				margin-left: 30%;
+				cursor:pointer;
+			  }
+
